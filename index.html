@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="./images/home.jpg">
+    <meta property="og:title" content="정성원 자기소개페이지">
+    <meta property="og:description" content="웹스크립트 [개인홈페이지 만들기] 과제 제출용 페이지입니다.">
+    <title>컴공 24학번 정성원입니다</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+    <div class="loading_container">
+        <div class="loading_box">
+            <p class="loading">🦝</p>
+            <p>Loading</p>
+        </div>
+    </div>
+
+    <header>
+        <h1 class="blind">정성원 자기소개서</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#home">🦝<span class="tooltip-text">Home</span></a>
+                </li>
+                <li>
+                    <a href="#about">🦝<span class="tooltip-text">About</span></a>
+                </li>
+                <li>
+                    <a href="#favorite">🦝<span class="tooltip-text">Project</span></a>
+                </li>
+                <li>
+                    <a href="#goal">🦝<span class="tooltip-text">Skill</span></a>
+                </li>
+                <li>
+                    <a href="#contact">🦝<span class="tooltip-text">Contact</span></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <section id="home">
+                <div class="title">
+                    <h1></h1>
+                    <p>안녕하세요 프로그래머를 지망하는 24학번 정성원 입니다. 만나서 반가워요 :)</p>
+                </div>
+                <div class="scroll">
+                    <a href="#about"><span></span></a>
+                    <p>Scroll</p>
+                </div>
+            </section>
+
+            <section id="about">
+                <div class="category">
+                    <h2>About</h2>
+                </div>
+
+                <div class="about_profile">
+                    <div class="img_box">
+                        <img src="images/profile.jpg" alt="프로필 사진">
+                    </div>
+                    <div class="introduction">
+                        <ul class="desc_box1">
+                            <li>
+                                <div>
+                                    <p>정성원</p>
+                                    <p>이름</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <p>2005.10.08</p>
+                                    <p>생년월일</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <p>대전</p>
+                                    <p>거주지</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="desc_box2">
+                            <span>010-4769-2774</span>
+                            <span>📱</span>
+                        </div>
+                        <div class="desc_box2">   
+                            <span>castleone2774@gmail.com</span>
+                            <span>📧</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="property">
+                    <div class="property_box">
+                        <div class="poster">
+                            <h2>너구리</h2>
+                            <figure class="item">
+                                <img src="./images/raccon.jpg" alt="">
+                                <p>별명</p>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="property_box">
+                        <div class="poster">
+                            <h2>컴퓨터공학</h2>
+                            <figure class="item">
+                                <img src="./images/computer.png" alt="">
+                                <p>전공</p>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="property_box">
+                        <div class="poster">
+                            <h2>INTP</h2>
+                            <figure class="item">
+                                <img src="./images/mbti.png" alt="">
+                                <p>MBTI</p>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="property_box">
+                        <div class="poster raccon">
+                            <figure class="item">
+                                <img src="./images/raccon2.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="property_box">
+                        <div class="poster raccon">
+                            <figure class="item">
+                                <img src="./images/raccon3.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="property_box">
+                        <div class="poster raccon">
+                            <figure class="item">
+                                <img src="./images/raccon2.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="property_box">
+                        <div class="poster raccon">
+                            <figure class="item">
+                                <img src="./images/raccon3.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section id="favorite">
+                <div class="category">
+                    <h2>Project</h2>
+                    <p>프로젝트</p>
+                </div>
+                <div class="slide_warp">
+                    <ul class="slides">
+                        <li>
+                            <div class="slide_img_box">
+                                <img src="images/project_modeling.jpg" alt="모델링 프로그램">
+                            </div>
+                            <div class="slide_text_box">
+                                <span>01</span>
+                                <p class="title">모델링 프로그램</p>
+                                <p class="desc">Earth system modeling frame work 프로그램을 활용해 대기 움직임을 계산하고 시각화 하는 탐구</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="slide_img_box">
+                                <img src="images/project_sheet.jpg" alt="모델링 프로그램">
+                            </div>
+                            <div class="slide_text_box">
+                                <span>02</span>
+                                <p class="title">경제 경향 분석 활동지</p>
+                                <p class="desc">
+                                    '디지털 경제 분야의 장단점과 메타버스 상거래의 영향'이라는
+                                    주제로 세계 경제 경향을 분석하는 활동지를 작성
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="slide_img_box">
+                                <img src="images/project_english sheet.jpg" alt="모델링 프로그램">
+                            </div>
+                            <div class="slide_text_box">
+                                <span>03</span>
+                                <p class="title">영문 탐구 보고서</p>
+                                <p class="desc">'컴퓨터 기술의 기술발전과 미래'에 대한 논문을 읽고 
+                                    '빅데이터 분석 및 처리기술의 발전'을 주제로 영문 탐구 보고서를 작성
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="slide_img_box">
+                                <img src="images/project_chatbot.png" alt="모델링 프로그램">
+                            </div>
+                            <div class="slide_text_box">
+                                <span>04</span>
+                                <p class="title">챗봇 개발(예정)</p>
+                                <p class="desc">자연어 처리기능을 활용하여 Python의 NLTK와 같은 라이브러리를 사용하여 
+                                    텍스트 데이터를 처리하고 응답을 생성할 수 있는 머신러닝 기반의 챗봇개발
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="slide_img_box">
+                                <img src="images/project_crawling.jpg" alt="모델링 프로그램">
+                            </div>
+                            <div class="slide_text_box">
+                                <span>05</span>
+                                <p class="title">상품가격 비교 웹 개발(예정)</p>
+                                <p class="desc">크롤링을 활용하여 여러 쇼핑 사이트에서 특정 상품의 가격 정보를 크롤링하고
+                                    비교하는 웹 사이트 개발
+                                </p>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <p class="controls">
+                    <span class="prev">←</span>
+                    <span class="next">→</span>
+                </p>
+            </section>
+
+            <section id="goal">
+                <div class="category">
+                    <h2>Skill</h2>
+                    <p>나의 장점</p>
+                </div>
+                <ul class="goal_box">
+                    <li class="goal_detail goal_detail_1">
+                        <div class="goal_detaile_imgbox">
+                        </div>
+                        <div class="goal_detaile_desc">
+                            <p>#무서운거 잘봄</p>
+                        </div>
+                    </li>
+                    <li class="goal_detail goal_detail_2">
+                        <div class="goal_detaile_imgbox">
+                        </div>
+                        <div class="goal_detaile_desc">
+                            <p>#재미있게 공부</p>
+                            <p>재밌게 코드<br>공부할 수 있음</p>
+                        </div>
+                    </li>
+                    <li class="goal_detail goal_detail_3">
+                        <div class="goal_detaile_imgbox">
+                        </div>
+                        <div class="goal_detaile_desc">
+                            <p>#뭐든 잘먹음<br>편식 안하고 잘먹어요</p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="contact">
+                <div class="container">
+                    <div class="category">
+                        <h2>contact</h2>
+                    </div>
+                    <div class="link">
+                        <ul>
+                            
+                            <li><a href="https://github.com/keveu" target="_blank">Github</a></li>
+    
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        
+        <p>* 상업적으로 사용하지 않는 과제 제출용 페이지 입니다 *</p>
+    </footer>
+
+    <script src="js/loading.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
