@@ -2,7 +2,7 @@
 
 활용한 테마:https://github.com/parkjooyoung0608/about_me
 
-
+github 주소: https://github.com/keveu/github.io?tab=readme-ov-file
 
 
 ## 📌 사용 기술
